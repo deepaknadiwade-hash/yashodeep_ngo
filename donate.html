@@ -171,7 +171,8 @@
 
   function changeBackground() {
     // Remove dark overlay for clearer images
-    hero.style.backgroundImage = `url('${images[index]}')`;
+    //hero.style.backgroundImage = `url('${images[index]}')`;
+    hero.style.backgroundColor = 'white';
     
     index = (index + 1) % images.length;
   }
