@@ -58,7 +58,7 @@
 </nav>
 
 <!-- Hero Section -->
-<section id="heroSection" class="hero text-center" style="background-color: white;">
+<section id="heroSection" class="hero text-center">
   <div class="container">
     <h1 class="mb-3">Support YASHODEEP</h1>
     <p class="lead">Your contribution can help build a student’s career and transform their life.</p>
@@ -171,8 +171,7 @@
 
   function changeBackground() {
     // Remove dark overlay for clearer images
-    //hero.style.backgroundImage = `url('${images[index]}')`;
-    hero.style.backgroundColor = 'white';
+    hero.style.backgroundImage = `url('${images[index]}')`;
     
     index = (index + 1) % images.length;
   }
